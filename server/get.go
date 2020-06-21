@@ -2,11 +2,11 @@ package server
 
 import (
 	//"fmt"
-	"net/http"
 	"encoding/json"
+	"net/http"
 )
 
-type Message struct{
+type Message struct {
 	Info string `json:"version"`
 }
 
